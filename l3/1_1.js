@@ -19,7 +19,7 @@ const hebbFunction = (data) => {
     for (let j = 0; j < N; j++) {
       const currentVal = data[j].input[i];
       const expectedResult = resultsVector[j];
-      scalarProduct += currentVal * expectedResult;
+      scalarProduct += (1/currentVal) * (1/expectedResult);
     }
     weights[i + 1] = scalarProduct / N;
   }

@@ -40,104 +40,104 @@ class Neuron {
   }
 }
 
-// console.log('___n1___');
+console.log('___n1___');
 
-// const n1 = new Neuron(2);
+const n1 = new Neuron(2);
 
-// n1.learn([
-//   {input: [1, 1], output: 1},
-//   {input: [1, -1], output: -1},
-//   {input: [-1, 1], output: -1},
-//   {input: [-1, -1], output: -1},
-// ]);
+n1.learn([
+  {input: [1, 1], output: 1},
+  {input: [1, -1], output: -1},
+  {input: [-1, 1], output: -1},
+  {input: [-1, -1], output: -1},
+]);
 
-// console.log(n1.weights);
+console.log(n1.weights);
 
-// console.log(n1.evaluate([1, 1]));
-// console.log(n1.evaluate([1, -1]));
-// console.log(n1.evaluate([-1, 1]));
-// console.log(n1.evaluate([-1, -1]));
+console.log(n1.evaluate([1, 1]));
+console.log(n1.evaluate([1, -1]));
+console.log(n1.evaluate([-1, 1]));
+console.log(n1.evaluate([-1, -1]));
 
-// console.log('___n2___');
+console.log('___n2___');
 
-// const n2 = new Neuron(3);
+const n2 = new Neuron(3);
 
-// n2.learn([
-//   {input: [1, 1, 1], output: 1},
-//   {input: [1, 1, -1], output: 1},
-//   {input: [1, -1, 1], output: 1},
-//   {input: [1, -1, -1], output: -1},
-//   {input: [-1, 1, 1], output: 1},
-//   {input: [-1, 1, -1], output: 1},
-//   {input: [-1, -1, 1], output: -1},
-//   {input: [-1, -1, -1], output: -1},
-// ]);
+n2.learn([
+  {input: [1, 1, 1], output: 1},
+  {input: [1, 1, -1], output: 1},
+  {input: [1, -1, 1], output: 1},
+  {input: [1, -1, -1], output: -1},
+  {input: [-1, 1, 1], output: 1},
+  {input: [-1, 1, -1], output: 1},
+  {input: [-1, -1, 1], output: -1},
+  {input: [-1, -1, -1], output: -1},
+]);
 
-// console.log(n2.weights);
+console.log(n2.weights);
 
-// console.log(n2.evaluate([1, 1, 1]));
-// console.log(n2.evaluate([1, 1, -1]));
-// console.log(n2.evaluate([1, -1, 1]));
-// console.log(n2.evaluate([1, -1, -1]));
-// console.log(n2.evaluate([-1, 1, 1]));
-// console.log(n2.evaluate([-1, 1, -1]));
-// console.log(n2.evaluate([-1, -1, 1]));
-// console.log(n2.evaluate([-1, -1, -1]));
+console.log(n2.evaluate([1, 1, 1]));
+console.log(n2.evaluate([1, 1, -1]));
+console.log(n2.evaluate([1, -1, 1]));
+console.log(n2.evaluate([1, -1, -1]));
+console.log(n2.evaluate([-1, 1, 1]));
+console.log(n2.evaluate([-1, 1, -1]));
+console.log(n2.evaluate([-1, -1, 1]));
+console.log(n2.evaluate([-1, -1, -1]));
 
-// console.log('___n3___');
-
-
-// const n3 = new Neuron(3);
-
-// n3.learn([
-//   {input: [1, 1, 1], output: 1},
-//   {input: [1, 1, -1], output: -1},
-//   {input: [1, -1, 1], output: -1},
-//   {input: [1, -1, -1], output: -1},
-//   {input: [-1, 1, 1], output: 1},
-//   {input: [-1, 1, -1], output: -1},
-//   {input: [-1, -1, 1], output: 1},
-//   {input: [-1, -1, -1], output: -1},
-// ]);
-
-// console.log(n3.weights);
-
-// console.log(n3.evaluate([1, 1, 1]));
-// console.log(n3.evaluate([1, 1, -1]));
-// console.log(n3.evaluate([1, -1, 1]));
-// console.log(n3.evaluate([1, -1, -1]));
-// console.log(n3.evaluate([-1, 1, 1]));
-// console.log(n3.evaluate([-1, 1, -1]));
-// console.log(n3.evaluate([-1, -1, 1]));
-// console.log(n3.evaluate([-1, -1, -1]));
+console.log('___n3___');
 
 
-// console.log('___n4___');
+const n3 = new Neuron(3);
+
+n3.learn([
+  {input: [1, 1, 1], output: 1},
+  {input: [1, 1, -1], output: -1},
+  {input: [1, -1, 1], output: -1},
+  {input: [1, -1, -1], output: -1},
+  {input: [-1, 1, 1], output: 1},
+  {input: [-1, 1, -1], output: -1},
+  {input: [-1, -1, 1], output: 1},
+  {input: [-1, -1, -1], output: -1},
+]);
+
+console.log(n3.weights);
+
+console.log(n3.evaluate([1, 1, 1]));
+console.log(n3.evaluate([1, 1, -1]));
+console.log(n3.evaluate([1, -1, 1]));
+console.log(n3.evaluate([1, -1, -1]));
+console.log(n3.evaluate([-1, 1, 1]));
+console.log(n3.evaluate([-1, 1, -1]));
+console.log(n3.evaluate([-1, -1, 1]));
+console.log(n3.evaluate([-1, -1, -1]));
 
 
-// const n4 = new Neuron(3);
+console.log('___n4___');
 
-// n4.learn([
-//   {input: [0.5, 1, 0.5], output: 1},
-//   {input: [0.5, 1, -0.3], output: 1},
-//   {input: [0.4, -0.5, 0.4], output: 1},
-//   {input: [0.4, -0.5, -0.5], output: -1},
-//   {input: [-0.3, 0.7, 0.5], output: 1},
-//   {input: [-0.3, 0.7, -0.4], output: 1},
-//   {input: [-0.7, -1, 0.3], output: -1},
-//   {input: [-0.7, -1, -0.5], output: -1},
-// ]);
 
-// console.log(n4.weights);
+const n4 = new Neuron(3);
 
-// console.log(n4.evaluate([0.5, 1, 0.5]));
-// console.log(n4.evaluate([0.5, 1, -0.3]));
-// console.log(n4.evaluate([0.4, -0.5, 0.4]));
-// console.log(n4.evaluate([0.4, -0.5, -0.5]));
-// console.log(n4.evaluate([-0.3, 0.7, 0.5]));
-// console.log(n4.evaluate([-0.3, 0.7, -0.4]));
-// console.log(n4.evaluate([-0.7, -1, 0.3]));
-// console.log(n4.evaluate([-0.7, -1, -0.5]));
+n4.learn([
+  {input: [0.5, 1, 0.5], output: 1},
+  {input: [0.5, 1, -0.3], output: 1},
+  {input: [0.4, -0.5, 0.4], output: 1},
+  {input: [0.4, -0.5, -0.5], output: -1},
+  {input: [-0.3, 0.7, 0.5], output: 1},
+  {input: [-0.3, 0.7, -0.4], output: 1},
+  {input: [-0.7, -1, 0.3], output: -1},
+  {input: [-0.7, -1, -0.5], output: -1},
+]);
+
+console.log(n4.weights);
+
+console.log(n4.evaluate([0.5, 1, 0.5]));
+console.log(n4.evaluate([0.5, 1, -0.3]));
+console.log(n4.evaluate([0.4, -0.5, 0.4]));
+console.log(n4.evaluate([0.4, -0.5, -0.5]));
+console.log(n4.evaluate([-0.3, 0.7, 0.5]));
+console.log(n4.evaluate([-0.3, 0.7, -0.4]));
+console.log(n4.evaluate([-0.7, -1, 0.3]));
+console.log(n4.evaluate([-0.7, -1, -0.5]));
 
 console.log('___n5___');
 
